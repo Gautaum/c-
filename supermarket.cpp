@@ -74,44 +74,6 @@ m:
     goto m;
 }
 
-void shopping::administrator()
-{
-m:
-    int choice;
-    cout<<"\n\n\t\t\t\t Administrator Menu";
-    cout<<"\n\t\t\t|___1)Add the Product______|";
-    cout<<"\n\t\t\t|                          |";
-    cout<<"\n\t\t\t|___2)Modify the Product___|";
-    cout<<"\n\t\t\t|                          |";
-    cout<<"\n\t\t\t|___3)Delete the Product___|";
-    cout<<"\n\t\t\t|                          |";
-    cout<<"\n\t\t\t|___4)Back to main menu____|";
-    cout<<"\n\t\t\t|                          |";
-
-    cout<<"\n\n\t Please Enter your choice";
-    cin>>choice;
-
-    switch(choice)
-    {
-    case 1:
-        add();
-        break;
-    case 2:
-        edit();
-        break;
-    case 3:
-        rem();
-        break;
-    case 4:
-        menu();
-        break;
-    default:
-        cout<<"Invalid Choice! Please choose again";
-
-    }
-    goto m;
-}
-
 void shopping::buyer()
 {
 m:
