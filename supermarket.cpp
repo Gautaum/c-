@@ -1,7 +1,7 @@
 #include<iostream>
 #include<fstream>
 using namespace std;
-class shopping
+class shopping      // class shopping
 {
 private:
     int pcode;
