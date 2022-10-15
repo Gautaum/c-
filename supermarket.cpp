@@ -49,7 +49,7 @@ m:
         cout<<"\t\t\t\t Enter Password \n";
         cin>>password;
 
-        if(email=="premmittal88@gmail.com"&& password=="Prem")
+        if(email=="supermarketmanager@gmail.com"&& password=="super")
         {
             administrator();
         }
