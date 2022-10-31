@@ -51,7 +51,7 @@ m:
 
         if(email=="supermarketmanager@gmail.com"&& password=="super")
         {
-            administrator();
+            
         }
         else
         {
